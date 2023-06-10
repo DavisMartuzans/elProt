@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>elProt</title>
+    <title>Welcome to elProt</title>
 </head>
 <body>
   <header>
@@ -57,6 +57,37 @@
       <li>Excellent Customer Support: Our dedicated support team is always ready to assist you, providing exceptional customer service throughout your journey with us.</li>
     </ul>
   </div>
+<br>
+<br>
+<br>
+  <div class="form-container">
+    <h1>Contact Us</h1>
+    <form action="submit.php" method="POST">
+      <div class="form-group">
+        <label class="about-us-label" for="company-name">Company Name</label>
+        <input type="text" id="company-name" name="company-name" required>
+      </div>
+      <div class="form-group">
+        <label class="about-us-label" for="name">Name</label>
+        <input type="text" id="name" name="name" required>
+      </div>
+      <div class="form-group">
+        <label class="about-us-label" for="email">Email</label>
+        <input type="email" id="email" name="email" required>
+      </div>
+      <div class="form-group">
+        <label class="about-us-label" for="phone">Phone</label>
+        <input type="tel" id="phone" name="phone" required>
+      </div>
+      <div class="form-group">
+        <label class="about-us-label" for="message">Message</label>
+        <textarea id="message" name="message" required></textarea>
+      </div>
+      <div class="form-group">
+        <button class="about-us-button" type="submit">Submit</button>
+      </div>
+    </form>
+  </div>
   <br>
   <br>
   <br>
@@ -71,7 +102,6 @@
       </div>
     </div>
   </footer>
-  
   <script src="script.js"></script>
 </body>
 </html>
